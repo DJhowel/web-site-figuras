@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+        <section id="dom">
+            
+            <div id="panel-superior">
+                <h2>VIDEO</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3Vcz9_AnI9g?si=VbhhCgsa2_DF6eWC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            
+            <div id="panel-lateral"> 
+                <h2>Menu Principal</h2>
+                <ul>
+                    <a href="#">Inicio</a>
+                    <a href="#">Perfil</a>
+                    <a href="#">Estudios</a>
+                    <a href="#">Hobbies</a>
+                    <a href="#">Skills</a>
+                </ul>
+            </div>
+            <h1>MANIPULACIÓN DEL DOM</h1>
+            <div class="fila">
+                <div class="col-izq">
+                    <h2>BOTONES</h2>
+
+                        <button onclick="circulo()">CIRCULO</button>
+                        <button onclick="rectangulo()">RECTANGULO</button>
+                        <button onclick="degradado()">DEGRADADO</button>
+                        <button onclick="gif()">GIF</button>
+                        <button onclick="luna()">LUNA</button>
+                        <button onclick="estrella()">ESTRELLAS</button>
+                        <button onclick="triangulo()">TRIANGULO</button>
+                        <button onclick="moveTop()">TOP</button>
+                        <button onclick="moveButtom()">BOTTOM</button>
+                        <button onclick="moveLeft()">LEFT</button>
+                        <button onclick="moveRight()">RIGHT</button>
+                        <button onclick="moveDiagonal()">DIAGONAL</button>
+                        <button onclick="panelLateral()">PANEL LATERAL</button>
+                        <button onclick="panelSuperior()">PANEL SUPERIOR</button>  
+                        <button onclick="cambiarFondo()">BACKGROUND GENERAL</button>
+                        <button onclick="cambioColor()">COLOR POR EL USUARIO</button>
+                </div>
+                    
+                <div class="col-der">
+                    <h2 id="titulo">FIGURA</h2>
+                    <div id="figura" class="    "></div>
+                </div>
+            </div>
+        </section>
+
+        <script src="js/main.js"> </script>
+
+</body>
+</html>
